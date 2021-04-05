@@ -76,13 +76,18 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
             batch_X = batch_X.to(device)
             batch_y = batch_y.to(device)
             # TODO: Complete this train method to train the model provided.
+        
+           # Zero parameter gradients
             optimizer.zero_grad()
-            output = model(batch_X)
-            loss = loss_fn(output, batch_y)
+            
+            # forward/backward/optimize
+            outputs = model.forward(batch_X)
+            loss = loss_fn(outputs, batch_y)
             loss.backward()
             optimizer.step()
             total_loss += loss.data.item()
-            print("Epoch: {}: Loss: {}".format(epoch, total_loss / len(train_loader)))
+            
+        print("Epoch: {}, BCELoss: {}".format(epoch, total_loss / len(train_loader)))
 
 if __name__ == '__main__':
     # All of the model parameters and training parameters are sent as arguments when the script
