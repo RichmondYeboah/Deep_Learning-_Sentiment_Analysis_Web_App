@@ -23,7 +23,7 @@ git clone https://github.com/RichmondYeboah/Deep_Learning-_Sentiment_Analysis_We
 exit
 ```
 
-##Web app final result
+## Web app final result
 The final project will be executed in a simple html page which can be deployed anywhere.
 
 You will see the following:![webapp](https://user-images.githubusercontent.com/29513099/115080273-78159a80-9ed0-11eb-9604-1f5ce2f70166.gif)
