@@ -1,5 +1,5 @@
 # sagemaker-sentiment-analysis
-Deep Learning Udacity Nanodegree - SageMaker Deployment of a Sentiment Analysis model
+Deep Learning - SageMaker Deployment of a Sentiment Analysis model
 # Deep Learning Udacity Nanodegree - SageMaker Deployment Project
 
 
