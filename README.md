@@ -11,7 +11,6 @@ In the final architecture AWS API Gateway and AWS Lambda functions is used as we
 
 
 ## Setup instructions
-Please see the [original README](https://github.com/udacity/sagemaker-deployment/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks). For the solutions only clone this repository:
 
 ```
 cd SageMaker
